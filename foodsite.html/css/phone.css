@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+#services{
+    flex-direction: column;
+}
+#clients{
+    overflow: hidden;
+}
+#navbar{
+    flex-direction: column;
+
+}
+
+#home{
+    height: 280px;
+    
+}
+#home::before{
+    height: 480px;
+}
+
+.h-primary{
+    font-size: 26px;
+
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+#clients img{
+    width: 66px;
+    padding:0px 6px;
+}
